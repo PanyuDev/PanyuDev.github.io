@@ -11,7 +11,7 @@ export default function Home() {
       <div className='frostedBox h-36 w-2/6 mx-auto my-auto items-center rounded-lg drop-shadow-2xl py-4 px-6 flex space-x-4'>
         <img src="profile.png" className='h-28 w-28 rounded-full flex-row'/>
         <div>
-          <h1 className='text-white text-xl'>Hi I'm 
+          <h1 className='text-white text-xl'>Hi I&#39;m 
           <TypeAnimation
         sequence={[
           1000,
@@ -23,10 +23,10 @@ export default function Home() {
       <h3 className=' text-slate-300' > Front-end Developer & <br/>Aspiring Content Creator</h3>
     </div>
     <div className='flex-col items-stretch w-6 h-24 float-right iconDrawer'>
-      <a href="https://twitter.com/PanyuTweets" className='icons' target='_blank'> <img src="twitter.svg" /> </a>
-      <a href="https://youtube.com/@PanyuYT" className='icons' target='_blank'> <img src="youtube.svg" /> </a>
-      <a href="https://github.com/PanyuDev" className='icons' target='_blank'> <img src="github.svg" /> </a>
-      <a href="https://discord.gg/FUpeCRCva4" className='icons discordDecidedToBeSpecial' target='_blank'> <img src="discord.svg" /> </a>
+      <a href="https://twitter.com/PanyuTweets" className='icons' target='_blank'> <Image alt='twitter' src="twitter.svg" /> </a>
+      <a href="https://youtube.com/@PanyuYT" className='icons' target='_blank'> <Image alt='youtube' src="youtube.svg" /> </a>
+      <a href="https://github.com/PanyuDev" className='icons' target='_blank'> <Image alt='github' src="github.svg" /> </a>
+      <a href="https://discord.gg/FUpeCRCva4" className='icons discordDecidedToBeSpecial' target='_blank'> <Image alt='discord' src="discord.svg" /> </a>
     </div>
 
       </div>
