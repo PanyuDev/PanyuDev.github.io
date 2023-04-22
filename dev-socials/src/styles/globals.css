@@ -10,26 +10,44 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 2, 0, 36;
-    --background-start-rgb: 2,0,36,1;
-    --background-phase-one: 9,9,121,1;
-    --background-phase-two: 5,183,99,1;
-    --background-end-rgb: 0,212,255,1;
+    --foreground-rgb: 65, 88, 208;
+    --background-start-rgb: 65, 88, 208;
+    --background-phase-one: 200, 80, 192;
+    --background-end-rgb: 255, 204, 112;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgba(var(--foreground-rgb));
   background: linear-gradient(
-      90deg,
+      43deg,
       rgba(var(--background-start-rgb)) 0%,
-      rgba(var(--background-phase-one)) 27%,
-      rgba(var(--background-phase-two)) 77%,
+      rgba(var(--background-phase-one)) 46%,
       rgba(var(--background-end-rgb)) 100%
     );
+
 }
 
 .frostedBox {
   background-color: rgba(255, 255, 255, .15);
   backdrop-filter: blur(10px);
+}
+
+.icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.discordDecidedToBeSpecial {
+  margin-top: 0.6rem;
+}
+
+.iconDrawer {
+  margin-top: -2.5rem;
+}
+
+.icons:hover {
+  filter: invert(86%) sepia(3%) saturate(796%) hue-rotate(172deg) brightness(102%) contrast(88%);
 }
