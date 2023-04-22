@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 2, 0, 36;
+    --background-start-rgb: 2,0,36,1;
+    --background-phase-one: 9,9,121,1;
+    --background-phase-two: 5,183,99,1;
+    --background-end-rgb: 0,212,255,1;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      90deg,
+      rgba(var(--background-start-rgb)) 0%,
+      rgba(var(--background-phase-one)) 27%,
+      rgba(var(--background-phase-two)) 77%,
+      rgba(var(--background-end-rgb)) 100%
+    );
+}
+
+.frostedBox {
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(10px);
+}
