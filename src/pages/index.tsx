@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import { Container } from 'postcss'
 import { TypeAnimation } from 'react-type-animation';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,7 +21,7 @@ export default function Home() {
       /> </h1>
       <h3 className=' text-slate-300 ml-4' > Front-end Developer & <br/>Aspiring Content Creator</h3>
     </div>
-    <div className='flex-col items-stretch w-6 h-24 float-right iconDrawer'>
+    <div className='iconDrawer'>
       <a href="https://twitter.com/PanyuTweets" className='icons' target='_blank'> <Image alt='twitter' src="twitter.svg" /> </a>
       <a href="https://youtube.com/@PanyuYT" className='icons' target='_blank'> <Image alt='youtube' src="youtube.svg" /> </a>
       <a href="https://github.com/PanyuDev" className='icons' target='_blank'> <Image alt='github' src="github.svg" /> </a>

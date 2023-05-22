@@ -34,18 +34,33 @@ body {
 }
 
 .icons {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 100%;
+  height: auto;
   display: block;
   margin-top: 0.5rem;
+  object-fit: contain;
 }
 
 .discordDecidedToBeSpecial {
   margin-top: 0.6rem;
 }
 
-.iconDrawer {
-  margin-top: -2.5rem;
+@media (min-width: 1280px){
+  .iconDrawer {
+    margin-top: -2.5rem;
+    float: right;
+    height: 6rem;
+    width: 1.5rem;
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1280px) {
+  .iconDrawer {
+    float: bottom;
+    flex-direction: row;
+  }
 }
 
 .icons:hover {
