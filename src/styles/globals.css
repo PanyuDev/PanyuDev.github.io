@@ -2,20 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
+
   :root {
     --foreground-rgb: 65, 88, 208;
     --background-start-rgb: 65, 88, 208;
     --background-phase-one: 200, 80, 192;
     --background-end-rgb: 255, 204, 112;
   }
-}
+
 
 body {
   color: rgba(var(--foreground-rgb));
