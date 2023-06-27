@@ -31,6 +31,9 @@ body {
 
 
 @media (min-width: 1280px){
+  .text {
+    margin-top: 1rem;
+  }
   .iconDrawer {
     margin-bottom: 1rem;
     margin-left: 2rem;
@@ -39,11 +42,10 @@ body {
     flex-direction: column;
   }
   .icons {
-    width: 100%;
+    width: 110%;
     height: auto;
     display: block;
     margin-top: 0.5rem;
-    object-fit: contain;
   }
 }
 

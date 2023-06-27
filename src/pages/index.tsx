@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main className={`flex min-h-screen flex-col items-center justify-between ${inter.className}`}>
-      <div className='frostedBox h-auto w-auto mx-auto my-auto items-center rounded-lg drop-shadow-2xl py-2 px-2 flex space-x-4'>
+      <div className='frostedBox h-auto w-auto mx-auto my-auto items-center rounded-lg drop-shadow-2xl py-2 px-4 flex space-x-12'>
       <div className='flex flex-row'>
         <img src="profile.png" className='h-28 w-auto m-1 rounded-full'/>
           <div className='text'>
