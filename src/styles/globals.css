@@ -28,33 +28,45 @@ body {
   backdrop-filter: blur(10px);
 }
 
-.icons {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-top: 0.5rem;
-  object-fit: contain;
-}
 
-.discordDecidedToBeSpecial {
-  margin-top: 0.6rem;
-}
 
 @media (min-width: 1280px){
   .iconDrawer {
-    margin-top: -2.5rem;
-    float: right;
-    height: 6rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
     width: 1.5rem;
     align-items: stretch;
     flex-direction: column;
   }
+  .icons {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 0.5rem;
+    object-fit: contain;
+  }
 }
 
 @media (max-width: 1280px) {
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .frostedBox {
+    display: flex;
+    flex-direction: column;
+  }
   .iconDrawer {
-    float: bottom;
+    margin-top: 0.5rem;
+    columns: 4;
     flex-direction: row;
+    justify-content: start;
+    align-content: end;
+  }
+  .icons {
+    width: 20%;
+    width: auto;
   }
 }
 
