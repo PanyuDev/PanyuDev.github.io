@@ -26,7 +26,7 @@ export default function Home() {
     <div className='iconDrawer '>
       <a href="https://twitter.com/PanyuTweets" className='icons order-1' target='_blank'> <img srcSet='twitter.svg' /> </a>
       <a href="https://youtube.com/@PanyuYT" className='icons order-2' target='_blank'> <img srcSet='youtube.svg' /> </a>
-      <a href="https://github.com/PanyuDev" className='icons order-3' target='_blank'> <img srcSet='github.svg' /> </a>
+      <a href="https://twitch.tv/PanyuStreams" className='icons order-3' target='_blank'> <img srcSet='iconmonstr-twitch-1.svg' /> </a>
       <a href="https://discord.gg/FUpeCRCva4" className='icons order-4' target='_blank'> <img srcSet='discord.svg' /> </a>
     </div>
 
